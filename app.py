@@ -241,8 +241,8 @@ elif tab_choice == "📍 KP 1 — Garis Bilangan":
     <div class="fase-box">
         <div class="fase-label">① Stimulation — Pemantik</div>
         <div class="fase-text">
-        Suhu di <b>Puncak Jaya, Papua</b> bisa mencapai <b style="color:#C00000">−3°C</b>,
-        sementara di <b>Kota Kupang</b> bisa mencapai <b style="color:#70AD47">+30°C</b>.
+        <b>Puncak gunung</b> mencapai <b style="color:#C00000">+3.000 meter</b>,
+        di atas permukaan laut.
         Kedalaman <b>Palung Jawa</b> adalah <b style="color:#C00000">−7.000 m</b> dari permukaan laut.<br><br>
         <b>❓ Apa arti tanda "−" (negatif) pada bilangan-bilangan tersebut?</b>
         </div>
