@@ -138,6 +138,7 @@ with st.sidebar:
             "🔧 KP 2 — Kalkulator Operasi",
             "🌳 KP 3 — Pohon Faktor & FPB/KPK",
             "📝 Soal Latihan Interaktif",
+            "🎬 Video Bahan/Materi",
         ],
         label_visibility="collapsed",
     )
@@ -977,3 +978,45 @@ elif tab_choice == "📝 Soal Latihan Interaktif":
                           placeholder="Tuliskan refleksimu di sini...", height=80)
         if r1 or r2 or r3:
             st.markdown('<div class="success-card">✅ Terima kasih atas refleksimu! Salin ke LKS-mu.</div>', unsafe_allow_html=True)
+
+
+# ══════════════════════════════════════════
+# VIDEO BAHAN/MATERI  ← TAMBAHAN BARU
+# ══════════════════════════════════════════
+elif tab_choice == "🎬 Video Bahan/Materi":
+    st.markdown("## 🎬 Video Bahan/Materi")
+
+    st.markdown("""
+    <div class="info-card">
+    <b>📺 Panduan Menonton Video</b><br><br>
+    Sebelum atau sesudah bereksplorasi dengan kalkulator digital, tonton video berikut untuk
+    memperkuat pemahamanmu tentang <b>Bilangan Bulat</b>. Catat poin-poin penting yang kamu
+    temukan dari video ke dalam LKS-mu!
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.markdown("---")
+
+    st.markdown("""
+    <div class="fase-box" style="border-color:#ED7D31;background:#FFF4EC;">
+        <div class="fase-label" style="color:#ED7D31;">🎥 Video Pembelajaran — Bilangan Bulat</div>
+        <div class="fase-text">
+        Simak video berikut dengan seksama. Perhatikan penjelasan konsep, contoh soal,
+        dan cara penyelesaiannya. Gunakan sebagai referensi pendukung kegiatan Discovery Learning!
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    st.video("https://youtu.be/cQAwIhfC6Dg")
+
+    st.markdown("---")
+
+    st.markdown("""
+    <div class="warning-card">
+    <b>📝 Tugas Setelah Menonton</b><br><br>
+    Setelah menonton video, jawablah pertanyaan berikut di LKS-mu:<br><br>
+    1. Apa konsep utama yang dijelaskan dalam video tersebut?<br>
+    2. Adakah cara atau trik baru yang kamu pelajari dari video? Jelaskan!<br>
+    3. Bagian mana yang menurutmu paling sulit dipahami? Diskusikan dengan kelompokmu.
+    </div>
+    """, unsafe_allow_html=True)
